@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw source tables"
+    database: dbt_ecommerce_db # replace with your database name
+    schema: raw
+    tables:
+      - name: products
+        description: "Raw product data"
+      - name: categories
+        description: "Raw product categories"
+      - name: order_items
+        description: "Raw order item data"
+      - name: orders
+        description: "Raw order data"
+      - name: shipping
+        description: "Raw shipping data"
+      - name: customers
+        description: "Raw customers data"
+      - name: regions
+        description: "Raw regions data"
+      - name: payments
+        description: "Raw paymenst data"
