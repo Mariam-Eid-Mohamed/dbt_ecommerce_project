@@ -1,20 +1,20 @@
 
-### 🔹 RAW Layer
+###  RAW Layer
 - Source transactional tables stored in PostgreSQL
 - Preserves original data structure
 
-### 🔹 STAGING Layer
+###  STAGING Layer
 - dbt models built as views
 - Standardizes schema and prepares clean datasets
 
-### 🔹 ANALYTICS Layer
+###  ANALYTICS Layer
 - Aggregation marts designed for reporting
 - Examples:
   - Monthly sales summary
   - Regional performance analytics
   - Customer payment metrics
 
-### 🔹 SNAPSHOTS
+###  SNAPSHOTS
 - Implements Slowly Changing Dimension logic
 - Tracks historical changes in order status
 
@@ -46,7 +46,7 @@ The dataset simulates transactional business workflows used to build analytics-r
 
 ---
 
-## 🔍 Key Engineering Practices
+##  Key Engineering Practices
 
 - Layered data warehouse design
 - Aggregation marts for KPI reporting
@@ -64,7 +64,7 @@ The dataset simulates transactional business workflows used to build analytics-r
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Cloud warehouse migration (Snowflake)
 - Workflow orchestration with Airflow
